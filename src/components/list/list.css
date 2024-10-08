@@ -1,5 +1,22 @@
-.list_container{
-    width: 100%;
-    height: 85%;
-    border: 1px solid green;
+.list_container {
+  width: 100%;
+  height: 85%;
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  padding-top: 2%;
+}
+
+.device_table {
+  width: 80%;
+  border: 1px solid blue;
+  margin-bottom: 2%;
+}
+
+.device_row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

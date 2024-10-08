@@ -1,7 +1,7 @@
 {
   "name": "ReactChromeExtension",
   "description": "Test React Extension.",
-  "author": "Sarang Kaliyath",
+  "author": "SK",
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
