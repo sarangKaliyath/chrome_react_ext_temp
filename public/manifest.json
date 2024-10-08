@@ -5,16 +5,19 @@
   "version": "1.0",
   "manifest_version": 3,
   "icons": {
-      "128": "Logo.png"
+    "128": "Logo.png"
   },
   "permissions": [
-      "activeTab",
-      "scripting",
-      "identity",
-      "identity.email",
-      "cookies"
+    "activeTab",
+    "scripting",
+    "identity",
+    "identity.email",
+    "cookies"
   ],
   "action": {
-      "default_popup": "index.html"
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
   }
 }
